@@ -13,10 +13,126 @@
         <div class="container nav">
             <div class="brand">
                 <div class="logo" aria-hidden="true"></div>
-                <span>Rafael</span>
+                <span>Rafael gosta de mulheres com uma boa personalidade e um bundão</span>
             </div>
+            <nav>
+                <button class="hamb" id="btnMenu" aria-label="Abrir menu">==</button>
+                <div class="links" id="menuLinks" role="menu">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </nav>
         </div>
      </header>
+     <!--HERO / CARD-->
+     <main class="hero" id="inicio">
+        <div class="container hero-wrap">
+            <div>
+                <h1>
+                    Óla eu sou <span style="background: linear-gradient(135deg, var(--brand), var(--brand-2)); -webkit-background-clip: text; background-clip: text; color: transparent;">Rafael</span>
+                </h1>
+                <p>Estudante / Desenvolvedor / Iniciante. Este é um portifolio simples feito com 
+                    <strong>AMOR</strong>, <strong>HTML</strong>, <strong>e</strong> <strong>JavaScript-puro</strong>, 
+                    Ideal para começar.
+                </p>
+                <div class="cta">
+                    <a href="#projetos" class="btn primary">Ver Projetos</a>
+                    <a href="#contato" class="btn">Falar Comigo</a>
+                    <a href="#" class="btn" id="btnCV" download>Baixar CV</a>
+                </div>
+            </div>
+            <div>
+                <!--Troque a imagem: salve uma foto em /img/minha-foto.jpg ou ajuste o caminho-->
+                <div class="portrait" title="Minha foto"></div>
+            </div>
+        </div>
+     </main>
+     <!--SOBRE MIM-->
+     <SEction id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p class="section-sub">Meu nome e Rafael, gosto de andar de skate, tenho 1.80m, 16 anos, solteiro a procura de alguem. sou um cara bem reservado, não tenho muitas amizades, não gosto de me expor na internet, ao não se for para falar sobre skate, não saio de casa, gosto de mecher com computadores, gosto de mulheres altas com bundas grandes, e boa personalidade</p>
+            <div class="sobre">
+                <p>
+                    Sou apaixonado pela tecnologia e estou começando na area de desensolvimento de sistemas. Este portifolio foi feito para praticar e mostrar meus primeiros projetos. Gosto de aprender na pratica e estou sempre buscando evoluir um passo de cada dia.
+                </p>
+            </div>
+        </div>
+     </SEction>
+     <!--HABILIDADES-->
+     <SEction id="habilidades">
+        <div class="container">
+            <h2 class="section-title">Habilidades</h2>
+            <p class="section-sub">Lista de tudo que já estudei e que estou estudanto</p>
+            <div class="chips">
+                <span class="chip">HTML,</span>
+                <span class="chip">CSS,</span>
+                <span class="chip">JavaScript,</span>
+                <span class="chip">Python,</span>
+                <span class="chip">Banco De Dados,</span>
+                <span class="chip">SoftWare e HardWare</span>
+            </div>
+        </div>
+     </SEction>
+     <!--PROJETOS-->
+     <SEction id="projetos">
+        <div class="container">
+            <h2 class="section">Projetos</h2>
+            <p class="section-sub">Trabalho realizados na aula, desafios, e paginas. </p>
+            <div class="grid">
+                <!--Card 1-->
+                <article class="card">
+                    <div class="thumb">Imagem do projeto (300x150)</div>
+                    <h3>Projeto 1 - Pagina Simples</h3>
+                    <p>Uma landing Page básica com HTML e CSS</p>
+                    <div class="actions">
+                        <a href="#" class="btn" target="_blank" rel="noopener">Ver demo</a>
+                        <a href="#" class="btn" target="_blank" rel="noopener">Código</a>
+                    </div>
+                </article>
+                 <!--Card 2-->
+                <article class="card">
+                    <div class="thumb">Imagem do projeto (300x150)</div>
+                    <h3>Projeto 2 - contador</h3>
+                    <p>um contador simples feito com JavaScript (incrementa e zera)</p>
+                    <div class="actions">
+                        <a href="#" class="btn" target="_blank" rel="noopener">Ver demo</a>
+                        <a href="#" class="btn" target="_blank" rel="noopener">Código</a>
+                    </div>
+                </article>
+                 <!--Card 1-->
+                <article class="card">
+                    <div class="thumb">Imagem do projeto (300x150)</div>
+                    <h3>Projeto 3 - Número Secreto</h3>
+                    <p>Jogo de adivinhar um número de 1 a 10, usando o proprio prompt/alert</p>
+                    <div class="actions">
+                        <a href="#" class="btn" target="_blank" rel="noopener">Ver demo</a>
+                        <a href="#" class="btn" target="_blank" rel="noopener">Código</a>
+                    </div>
+                </article>
+                <!--CONTATO-->
+                <SEction id="container">
+                    <div class="container">
+                        <h2 class="sectuon-title">Preencha o formulario para gerar um email</h2>
+                        <form action="" id="formContato">
+                            <label for="">
+                                Nome
+                                <input type="text" id="nome" placeholder="digite seu nome" required>
+                            </label>
+                            <label for="">
+                                Email
+                                <input type="email" id="email" placeholder="Digite seu email" required>
+                            </label>
+                        </form>
+                    </div>
+
+                </SEction>
+            </div>
+        </div>
+     </SEction>
 </body>
 
 </html>
